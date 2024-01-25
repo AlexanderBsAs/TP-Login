@@ -1,0 +1,42 @@
+[
+    {
+      "id":233,
+      "name": "Usuario1",
+      "color": "blue",
+      "email": "usuario1@example.com",
+      "age": 25,
+      "password":1234
+    },
+    {
+        "id":433,
+      "name": "Usuario2",
+      "color": "red",
+      "email": "usuario2@example.com",
+      "age": 30,
+      "password":1234
+    },
+    {
+        "id":23,
+      "name": "Usuario3",
+      "color": "green",
+      "email": "usuario3@example.com",
+      "age": 22,
+      "password":1234
+    },
+    {
+        "id":32,
+      "name": "Usuario4",
+      "color": "yellow",
+      "email": "usuario4@example.com",
+      "age": 28,
+      "password":1234
+    },
+    {
+        "id":42,
+      "name": "Usuario5",
+      "color": "Morado",
+      "email": "usuario5@example.com",
+      "age": 35,
+      "password":1234
+    }
+  ]

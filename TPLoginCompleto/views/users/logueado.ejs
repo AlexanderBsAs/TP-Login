@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <title>Document</title>
+</head>
+<body class="<%=color%>">
+    <main>
+        <section>
+ <div>
+
+    <h1>hola <%=session.name %> elegiste el color: <%= session.color  %> <br>
+    tu email es: <%= body.email  %></h1>
+    <br>
+    <br>
+     
+    <h1><%= session.name %> gracias por visitarnos.</h1>
+
+    <h1><a href="/users/check">CHECK</a></h1>
+
+    <form action="/users/olvidar" method="post">
+        <div><label for="olvidar">olvidar color</label>
+            <input type="checkbox" name="olvidar" id="">
+           
+        </div>
+        <div><button type="submit">Enviar</button></div>
+    </form>
+
+ </div>
+</section>
+
+
+    </main>
+
+
+</body>
+</html>

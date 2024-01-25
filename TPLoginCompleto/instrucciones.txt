@@ -1,0 +1,21 @@
+Micro desafío - Paso 1:
+Crear un pequeño proyecto de Express, implementar una vista que le muestre al
+visitante un sencillo formulario que contenga:
+● Un label que diga: “Ingrese su nombre”, con un input para recibir dicho valor
+(requerido).
+● Un listado de opciones desplegable, que deberá tener varias opciones con
+nombres de colores de los cuales el visitante elegirá uno de ellos (requerido).
+● Un label que diga: “Ingrese su email”, con un input para recibir dicho valor
+(requerido).
+● Un label que diga: “Ingrese su edad”, con un input para recibir dicho valor (no
+requerido).
+● Un botón de enviar.
+Tras ingresar los datos y al dar clic en el botón de enviar debemos redireccionar al
+usuario a la misma página y que se muestre un texto que diga:
+● Hola nombreUsuario, elegiste el color: colorSelecionado, tu email es:
+emailUsuario y tu edad es: edadUsuario
+Con Express Validator, debemos validar:
+● Los campos que son requeridos y, en caso de que no se ingresen, debemos
+mostrar un mensaje de error indicando que deben completarse.
+● En caso de que se ingrese la edad, debemos validar que sea un número, en caso
+contrario, mostrar el error.

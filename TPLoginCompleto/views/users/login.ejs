@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <title>Document</title>
+</head>
+<body class="">
+    <main>
+        <section>
+           <% if(locals.errors){%>
+           <% errors.forEach(elemento=>{%>
+                 <h1 style="font-weight: bold;color: red;"> <%= elemento.msg %></h1>
+          <%  }) %>
+           <%} %> 
+        <form action="/users/login" method="post">
+            <div><label for="Name">Name</label>
+    <input type="text" name="Name" id=""></div>
+    <div>
+        <label for="color">color:</label>
+        <select name="color" id="">
+            <option value="red">Rojo</option>
+            <option value="blue">Azul</option>
+            <option value="green">Verde</option>
+            <option value="yellow">Amarillo</option>
+        </select>
+    </div>
+<div>
+    <label for="email">Email</label>
+    <input type="email" name="email" id=""></div>
+
+    <div><label for="Age">Age</label>
+        <input type="number" name="Age" id=""></div>
+    <div><label for="password">password:</label>
+    <input type="password" name="password"></div>
+        <div>
+            <div>
+                <label for="recordame">Recordar color</label>
+                <input type="checkbox" name="recordame" id="">
+            </div>
+            <button type="submit">Enviar</button>
+        </div>
+        </form>
+</section>
+
+
+    </main>
+
+
+</body>
+</html>
